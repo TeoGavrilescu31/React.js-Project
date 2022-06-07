@@ -1,0 +1,210 @@
+.AppAddReview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background-image: url("backgroundAdd.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+.AppReadReview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background-image: url("backgroundRead.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@200&family=Rowdies:wght@700&display=swap');
+
+body {
+  /* font-family: 'Comforter', cursive; */
+  font-family: 'Comforter', cursive;
+  font-family: 'Poppins', sans-serif; 
+  background-color: rgb(248,246,241);
+}
+.container{
+  width:100vw;
+  position:fixed;
+  display:flex;
+  font-family: 'Comforter', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rowdies', cursive;
+  background-image: url("backgroundStart.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+}
+
+.left{
+  position:relative;
+  left:0%;
+  width:33vw;
+  transition: 1200ms ease-in-out;
+}
+.left:hover{
+  font-size: 70px;
+  color:rgb(161, 155, 146);
+}
+
+.right{
+  position:relative;
+  height:100vh;
+  width:33vw;
+  transition: 1000ms ease-in-out;
+}
+.right:hover{
+  font-size: 70px;
+  color:rgb(161, 155, 146);
+}
+.middle{
+  position:relative;
+  top:30%;
+  height:100vh;
+  width:33vw;
+  transition: 1000ms ease-in-out;
+}
+
+.middle:hover{
+  font-size: 70px;
+  color:rgb(161, 155, 146);
+}
+a{
+  text-decoration: none;
+  color:rgb(166,133,85);
+  font-size:60px;
+  text-align:center;
+}
+
+.text1,.text2{
+  padding-top:45%;
+}
+
+.form1{
+  height:100vh;
+  width:100vw;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviewbox{
+  height:300px;
+  width:200px;
+  resize:none;
+  font-size:30px;
+}
+.movienamebox{
+  height:50px;
+  resize:none;
+  font-size:30px;
+}
+.ratingbox{
+  height:50px;
+  width:50px;
+  resize:none;
+  font-size:40px;
+}
+.submit{
+  height:50px;
+  width:150px;
+  font-size:20px;
+}
+.submit:hover{
+  cursor: pointer;
+}
+.thanks{
+  position: absolute;
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+}
+.back{
+    height:50px;
+    width:150px;
+    font-size: 30px;
+}
+
+.containerAdd{
+  width:500px;
+  height:calc( 100vh - 50px );
+  opacity:0.9;
+  margin-top:30px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius:5%;
+  transition: 700ms ease-in-out;
+  background-color: rgb(248,246,241);
+}
+.containerAdd:hover{
+  opacity:1;
+}
+.formAdd label{
+  font-size:35px;
+  color:rgb(166,133,85);
+}
+.test{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+textarea,input{
+  background-color: rgb(248,246,241);
+}
+.movienamebox{
+  height:70px;
+  resize:none;
+  font-size:40px;
+}
+.moviereviewbox{
+  height:200px;
+  width:500px;
+  resize:none;
+  font-size:30px;
+}
+.usernamebox{
+  height:40px;
+  resize:none;
+  font-size:30px;
+}
+.button-test{
+  margin-top:30px;
+  height:50px;
+  width:300px;
+  font-size:30px;
+  color:rgb(166,133,85);
+  background-color:white;
+}
+.button-test:hover{
+  cursor: pointer;
+}
+.goBack{
+  position:absolute;
+  top:10px;
+  left:10px;
+  font-size:80px;
+  color:rgb(255, 255, 255);
+  transition: 400ms ease-in-out;
+}
+.goBack:hover{
+  font-size:100px;
+}
+.titleh1{
+  margin-top:10px;
+  font-size:45px;
+  color:rgb(166,133,85);
+}
